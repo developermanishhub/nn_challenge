@@ -1,0 +1,39 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .nn_challenge_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 0;
+    padding: 0;
+}
+
+.nn_challenge_container h1, .nn_challenge_container h2 {
+    margin: 10px 0;
+}
+
+.nn_challenge_container #score {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nn_challenge_container #battlefield {
+    margin: 20px 0;
+}
+
+.nn_challenge_container .unit {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.nn_challenge_container #result {
+    font-size: 20px;
+    font-weight: bold;
+}
